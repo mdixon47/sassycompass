@@ -126,3 +126,108 @@ p {
   font-size: 1rem;
   color: #2176c7;
 }
+
+/* line 4, ../components/sass/_layout.scss */
+header img {
+  width: 95%;
+  margin: 2.5%;
+  max-width: 500px;
+  margin-bottom: 0;
+}
+
+/* line 16, ../components/sass/_layout.scss */
+.navigation {
+  background: #175c73;
+}
+/* line 20, ../components/sass/_layout.scss */
+.navigation ul.nav li i {
+  color: #f7b71a;
+  padding-right: .5em;
+}
+/* line 24, ../components/sass/_layout.scss */
+.navigation ul.nav li a {
+  display: block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #fcf4dc;
+}
+
+/* line 36, ../components/sass/_layout.scss */
+footer {
+  color: #eae3cb;
+  background: #0d3340;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+/* line 3, ../components/sass/_modules.scss */
+.speakers .artist {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 6, ../components/sass/_modules.scss */
+.speakers .artist h3 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #819090;
+  margin-bottom: 5px;
+}
+/* line 13, ../components/sass/_modules.scss */
+.speakers .artist img {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 25, ../components/sass/_modules.scss */
+#nextmeeting {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 27, ../components/sass/_modules.scss */
+#nextmeeting img {
+  width: 30%;
+  max-width: 130px;
+  float: left;
+  margin-right: 3%;
+}
+
+/* line 36, ../components/sass/_modules.scss */
+.socialmediaicons .title {
+  float: left;
+}
+/* line 39, ../components/sass/_modules.scss */
+.socialmediaicons ul {
+  float: left;
+}
+/* line 41, ../components/sass/_modules.scss */
+.socialmediaicons ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+/* line 44, ../components/sass/_modules.scss */
+.socialmediaicons ul li img {
+  width: 30px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 52, ../components/sass/_modules.scss */
+.pixgrid {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 55, ../components/sass/_modules.scss */
+.pixgrid img {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  width: 30%;
+  max-width: 120px;
+}
