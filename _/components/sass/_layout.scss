@@ -132,6 +132,30 @@ header{
     .small {
       display: block;
     }
+
+    p:nth-of-type(2) {
+      font-weight: 200 !important;
+      text-align: left;
+      font-size: .8em;
+      line-height: 0;
+      @include single-transition(all, .3s ease-out);
+      opacity: 0;
+    }
+
+    &:hover{
+      p:nth-of-type(2) {
+        line-height: 1.5em;
+        opacity: 1;
+      }
+    }
+
+    .artist{
+      @include span-columns(4, 12);
+    }
+
+    .artist:nth-of-type(3) {
+      @include span-columns(4 omega, 12);
+    }
   }
 }
 

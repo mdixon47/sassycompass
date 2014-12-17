@@ -306,9 +306,38 @@ header .hero .branding {
   .speakerslist .small {
     display: block;
   }
+  /* line 136, ../components/sass/_layout.scss */
+  .speakerslist p:nth-of-type(2) {
+    font-weight: 200 !important;
+    text-align: left;
+    font-size: .8em;
+    line-height: 0;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+  }
+  /* line 146, ../components/sass/_layout.scss */
+  .speakerslist:hover p:nth-of-type(2) {
+    line-height: 1.5em;
+    opacity: 1;
+  }
+  /* line 152, ../components/sass/_layout.scss */
+  .speakerslist .artist {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  /* line 156, ../components/sass/_layout.scss */
+  .speakerslist .artist:nth-of-type(3) {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
 }
 
-/* line 140, ../components/sass/_layout.scss */
+/* line 164, ../components/sass/_layout.scss */
 footer {
   color: #eae3cb;
   background: #0d3340;
@@ -317,7 +346,7 @@ footer {
   padding-bottom: 100px;
 }
 
-/* line 150, ../components/sass/_layout.scss */
+/* line 174, ../components/sass/_layout.scss */
 .layout {
   *zoom: 1;
   max-width: 61em;
@@ -334,18 +363,18 @@ footer {
   display: table;
   clear: both;
 }
-/* line 154, ../components/sass/_layout.scss */
+/* line 178, ../components/sass/_layout.scss */
 .layout .primary {
   margin-top: .2em;
 }
 @media (min-width: 47em) {
-  /* line 154, ../components/sass/_layout.scss */
+  /* line 178, ../components/sass/_layout.scss */
   .layout .primary {
     width: 66.10169%;
     float: left;
     margin-right: 1.69492%;
   }
-  /* line 159, ../components/sass/_layout.scss */
+  /* line 183, ../components/sass/_layout.scss */
   .layout .primary #nextmeeting {
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -356,14 +385,14 @@ footer {
     background: #259286;
     padding: 0 20px 20px 20px;
   }
-  /* line 167, ../components/sass/_layout.scss */
+  /* line 191, ../components/sass/_layout.scss */
   .layout .primary #nextmeeting h1 {
     color: #16554e;
     border: none;
     text-shadow: none;
     margin-bottom: 20px;
   }
-  /* line 173, ../components/sass/_layout.scss */
+  /* line 197, ../components/sass/_layout.scss */
   .layout .primary #nextmeeting a {
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
@@ -374,14 +403,14 @@ footer {
 }
 
 @media (min-width: 47em) {
-  /* line 184, ../components/sass/_layout.scss */
+  /* line 208, ../components/sass/_layout.scss */
   .secondary {
     width: 32.20339%;
     float: right;
     margin-right: 0;
     font-size: 1.1rem;
   }
-  /* line 188, ../components/sass/_layout.scss */
+  /* line 212, ../components/sass/_layout.scss */
   .secondary h1 {
     font-size: 1.8rem;
     color: #bd3613;
